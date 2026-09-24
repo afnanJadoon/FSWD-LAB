@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="calculator">
+
+    <div class="display">0</div>
+
+    <div class="buttons">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator">÷</button>
+
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">×</button>
+
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">−</button>
+
+        <button>0</button>
+        <button>.</button>
+        <button class="operator">+</button>
+        <button class="equal">=</button>
+    </div>
+
+</div>
+
+</body>
+<style>
+        body {
+            font-family: Arial;
+            background: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1000vh;
+        }
+
+        .calculator {
+            width: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .display {
+            background: #eee;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: right;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        button {
+            padding: 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .operator {
+            background: lightskyblue;
+            color: white;
+        }
+
+        .equal {
+            background: lightgreen;
+            color: white;
+        }
+    </style>
+</html>

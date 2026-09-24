@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Facebook</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+  }
+
+  /* Top blue header */
+  .navbar {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .navbar input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+  }
+
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  /* Main content area with 2 boxes side by side */
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  /* Left side text */
+  .intro {
+    max-width: 400px;
+  }
+
+  .intro h1 {
+    color: darkslateblue;
+    font-size: 32px;
+  }
+
+  .intro p {
+    font-size: 20px;
+    color: black;
+  }
+
+  /* Right side login box */
+  .login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    width: 400px;
+    text-align: center;
+  }
+
+  .login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+  .login-btn {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .forgot {
+    display: block;
+    margin-top: 10px;
+    color: royalblue;
+    text-decoration: none;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .create-btn {
+    background-color: seagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="logo">facebook</div>
+    <input type="text" placeholder="Search Facebook">
+    <div class="navbar-right">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- Left intro text -->
+    <div class="intro">
+      <h1>Facebook helps you connect and share with the people in your life.</h1>
+    </div>
+
+    <!-- Right login box -->
+    <div class="login-box">
+      <input type="text" placeholder="Email or phone number">
+      <input type="password" placeholder="Password">
+      <button class="login-btn">Log In</button>
+      <a href="#" class="forgot">Forgotten password?</a>
+      <hr>
+      <button class="create-btn">Create New Account</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

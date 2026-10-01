@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Bootstrap CSS from CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Bootstrap has no gradient or smooth-transition utility, so these custom rules are kept */
+    body {
+      background-color: aliceblue;
+    }
+
+    .sidebar {
+      background: linear-gradient(160deg, mediumslateblue, dodgerblue);
+    }
+
+    .card {
+      transition: transform 0.25s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(65, 105, 225, 0.25);
+    }
+
+    .badge {
+      background: linear-gradient(120deg, mediumslateblue, dodgerblue) !important;
+    }
+
+    .icon-btn {
+      transition: background-color 0.25s;
+    }
+
+    .icon-btn:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="d-flex min-vh-100">
+
+    <!-- Left Column -->
+    <div class="sidebar text-white text-center p-4" style="width: 280px;">
+      <img src="https://avatars.githubusercontent.com/u/219841765?v=4"
+        class="rounded-circle border border-4 border-white mb-3" style="width: 150px; height: 150px; object-fit: cover;"
+        alt="Profile Photo">
+
+      <h1 class="fs-4">Muhammad Afnan Jadoon</h1>
+      <p class="text-light small">Building projects to learn &amp; grow</p>
+
+      <a href="https://github.com/afnanJadoon" target="_blank"
+        class="btn btn-light btn-sm rounded-pill w-100 fw-bold my-2">GitHub: afnanJadoon</a>
+
+      <div class="d-flex justify-content-center gap-2 my-3">
+        <a href="https://github.com/afnanJadoon" target="_blank" class="btn btn-light btn-sm rounded-circle icon-btn"
+          style="width:36px; height:36px;">GH</a>
+        <a href="#" class="btn btn-light btn-sm rounded-circle icon-btn" style="width:36px; height:36px;">IN</a>
+        <a href="#" class="btn btn-light btn-sm rounded-circle icon-btn" style="width:36px; height:36px;">@</a>
+      </div>
+
+      <p class="fst-italic small border-top pt-3 mt-3">"Building projects to learn & grow"</p>
+    </div>
+
+    <!-- Right Column -->
+    <div class="flex-grow-1 p-5">
+
+      <section class="mb-5">
+        <h2 class="text-primary border-bottom border-primary pb-2">About Me</h2>
+        <p>I'm Muhammad Afnan Jadoon, a developer who enjoys building projects to learn and grow. I like exploring
+          different areas of programming — from AI chatbots and desktop apps to games and network simulations — and
+          turning ideas into working projects.</p>
+      </section>
+
+      <section class="mb-5">
+        <h2 class="text-primary border-bottom border-primary pb-2">Skills</h2>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">Python</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">C++</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">JavaScript</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">HTML</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">CSS</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">Tkinter</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">OOP</span>
+        <span class="badge rounded-pill text-bg-primary p-2 m-1">Cisco Packet Tracer</span>
+      </section>
+
+      <section class="mb-5">
+        <h2 class="text-primary border-bottom border-primary pb-2">Projects</h2>
+
+        <div class="row g-3 mt-1">
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Basic Chatbot (Python)</h5>
+                <p class="card-text small">A simple chatbot built with the Google Gemini API, LangGraph, and Pydantic.
+                  It responds to user input conversationally and stores conversation history.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">To-Do List App (Python)</h5>
+                <p class="card-text small">A To-Do List application built with Python and Tkinter, featuring a light
+                  blue themed GUI, automatic task numbering, and task deletion.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Tic Tac Toe Game</h5>
+                <p class="card-text small">A classic Tic Tac Toe game built with HTML, CSS, and JavaScript, showcasing
+                  DOM manipulation, game logic, and responsive design.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Rock Paper Scissors Game</h5>
+                <p class="card-text small">An interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript,
+                  where the computer randomly generates its choice and the game keeps score.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">DoodleJump Clone</h5>
+                <p class="card-text small">A 2D platformer game clone built with C++ and SFML, applying OOP principles
+                  like inheritance and polymorphism.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-start border-primary border-4 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Enterprise Network Topology</h5>
+                <p class="card-text small">A dual-office enterprise network simulation built in Cisco Packet Tracer,
+                  featuring VLANs, inter-VLAN routing, WAN links, and departmental segmentation.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-primary border-bottom border-primary pb-2">Contact</h2>
+        <p>Feel free to check out more of my work on
+          <a href="https://github.com/afnanJadoon" target="_blank">GitHub</a>.
+        </p>
+      </section>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

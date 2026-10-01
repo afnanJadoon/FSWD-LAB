@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA-X Space Exploration</title>
+
+    <!-- Bootstrap CSS - only stylesheet used, no custom CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-white">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-dark bg-black px-4">
+        <span class="navbar-brand fw-bold">NOVA-X</span>
+        <div>
+            <a href="#home" class="text-white text-decoration-none me-3">Home</a>
+            <a href="#missions" class="text-white text-decoration-none me-3">Missions</a>
+            <a href="#planets" class="text-white text-decoration-none me-3">Planets</a>
+            <a href="#about" class="text-white text-decoration-none">About</a>
+        </div>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <div class="position-relative text-center min-vh-100 d-flex align-items-center justify-content-center" id="home"
+        style="background-image:url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1600&q=80'); background-size:cover; background-position:center;">
+
+        <!-- dark overlay so text stays readable on top of the photo -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+
+        <div class="position-relative text-white">
+            <p>WELCOME TO NOVA-X</p>
+            <h1 class="fw-bold">EXPLORE THE UNIVERSE</h1>
+            <p>Discover planets, explore missions and learn about the amazing world beyond Earth.</p>
+            <a href="#missions" class="btn btn-primary mt-2">Explore Now</a>
+        </div>
+    </div>
+
+    <!-- ================= INTRO ================= -->
+    <div class="text-center py-5 px-4">
+        <h2 class="fw-bold">THE UNIVERSE IS WAITING</h2>
+        <p>Space is full of mysteries waiting to be discovered. Join us on a journey through planets, stars and
+            incredible space missions.</p>
+    </div>
+
+    <!-- ================= MISSIONS ================= -->
+    <div class="container py-5" id="missions">
+        <h2 class="text-center fw-bold mb-4">SPACE MISSIONS</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white text-center p-3 h-100">
+                    <div class="fs-1">🚀</div>
+                    <h5>MISSION ORION</h5>
+                    <p>A mission designed to explore Mars and study its environment.</p>
+                    <p>STATUS: ACTIVE</p>
+                    <a href="#" class="text-white">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white text-center p-3 h-100">
+                    <div class="fs-1">🌙</div>
+                    <h5>MISSION LUNA</h5>
+                    <p>Exploring the Moon and discovering new possibilities for humans.</p>
+                    <p>STATUS: COMPLETE</p>
+                    <a href="#" class="text-white">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white text-center p-3 h-100">
+                    <div class="fs-1">🛰️</div>
+                    <h5>VOYAGER-X</h5>
+                    <p>A deep-space mission exploring the outer solar system.</p>
+                    <p>STATUS: ACTIVE</p>
+                    <a href="#" class="text-white">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================= PLANETS ================= -->
+    <div class="container py-5" id="planets">
+        <h2 class="text-center fw-bold mb-4">EXPLORE PLANETS</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white h-100">
+                    <img src="images/earth.jpg" class="card-img-top" style="height:200px; width:100%; object-fit:cover;"
+                        alt="Earth">
+                    <div class="card-body">
+                        <h5>EARTH</h5>
+                        <p>Our home planet and the only known planet with life.</p>
+                        <p><b>Diameter:</b> 12,742 km</p>
+                        <p><b>Moons:</b> 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white h-100">
+                    <img src="images/mars.jpg" class="card-img-top" style="height:200px; width:100%; object-fit:cover;"
+                        alt="Mars">
+                    <div class="card-body">
+                        <h5>MARS</h5>
+                        <p>Mars is known as the Red Planet because of its reddish surface.</p>
+                        <p><b>Diameter:</b> 6,779 km</p>
+                        <p><b>Moons:</b> 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white h-100">
+                    <img src="images/jupiter.jpg" class="card-img-top"
+                        style="height:200px; width:100%; object-fit:cover;" alt="Jupiter">
+                    <div class="card-body">
+                        <h5>JUPITER</h5>
+                        <p>Jupiter is the largest planet in our solar system.</p>
+                        <p><b>Diameter:</b> 139,820 km</p>
+                        <p><b>Moons:</b> 95+</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================= FUN FACT ================= -->
+    <div class="text-center py-5 px-4">
+        <h2 class="fw-bold">DID YOU KNOW?</h2>
+        <p>A day on Venus is longer than a year on Venus!</p>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-auto text-center mx-4">
+                <h2 class="fw-bold">243</h2>
+                <p>Earth Days</p>
+            </div>
+            <div class="col-auto text-center mx-4">
+                <h2 class="fw-bold">225</h2>
+                <p>Earth Days</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= ASTRONAUT ================= -->
+    <div class="container py-5" id="about">
+        <h2 class="text-center fw-bold mb-4">MEET THE EXPLORERS</h2>
+
+        <div class="row bg-secondary rounded mx-auto" style="max-width:900px;">
+            <div class="col-md-5 p-0">
+                <img src="images/astronaut.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Astronaut">
+            </div>
+            <div class="col-md-7 p-4">
+                <h3>ALEX CARTER</h3>
+                <h6>SPACE COMMANDER</h6>
+                <p>Alex Carter is a fictional astronaut representing the brave explorers who travel into space.</p>
+                <p><b>Missions:</b> 8</p>
+                <p><b>Space Hours:</b> 2,430</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= CONTACT ================= -->
+    <div class="text-center py-5">
+        <h2 class="fw-bold">READY TO EXPLORE?</h2>
+        <p>The universe is waiting for you.</p>
+        <a href="#home" class="btn btn-primary">START EXPLORING</a>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="text-center py-4 bg-black">
+        <h5 class="fw-bold">NOVA-X</h5>
+        <p>Explore Beyond The Known.</p>
+        <div class="mb-2">
+            <a href="#home" class="text-white text-decoration-none mx-2">Home</a>
+            <a href="#missions" class="text-white text-decoration-none mx-2">Missions</a>
+            <a href="#planets" class="text-white text-decoration-none mx-2">Planets</a>
+            <a href="#about" class="text-white text-decoration-none mx-2">About</a>
+        </div>
+        <p>© 2026 NOVA-X Space Exploration</p>
+    </footer>
+
+</body>
+
+</html>

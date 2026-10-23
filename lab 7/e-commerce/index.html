@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afnan Store</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-store"></i> Afnan Store</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="ms-auto d-flex flex-column flex-lg-row">
+                    <a href="#products" class="btn btn-outline-light btn-sm me-lg-2 mb-1 mb-lg-0">Products</a>
+                    <a href="#reviews" class="btn btn-outline-light btn-sm me-lg-2 mb-1 mb-lg-0">Reviews</a>
+                    <a href="#cart" class="btn btn-outline-light btn-sm me-lg-2 mb-1 mb-lg-0">Cart (3)</a>
+                    <a href="#login" class="btn btn-outline-light btn-sm me-lg-2 mb-1 mb-lg-0">Login</a>
+                    <a href="#signup" class="btn btn-light btn-sm">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <div class="bg-secondary text-white text-center p-5">
+        <h1>Welcome to Afnan Store</h1>
+        <p class="lead">Laptops, headphones, and gadgets — all in one place.</p>
+        <a href="#products" class="btn btn-success btn-lg">Shop Now</a>
+    </div>
+
+    <div class="container">
+
+        <!-- ================= PRODUCT LISTING ================= -->
+        <section id="products" class="my-5">
+            <h2 class="text-center mb-4"><i class="fas fa-box"></i> Our Products</h2>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80"
+                            class="card-img-top" alt="Wireless Headphones">
+                        <div class="card-body">
+                            <h5 class="card-title">Wireless Headphones</h5>
+                            <p class="card-text">$59.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
+                            class="card-img-top" alt="Smart Watch">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Watch</h5>
+                            <p class="card-text">$89.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80"
+                            class="card-img-top" alt="Gaming Laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaming Laptop</h5>
+                            <p class="card-text">$899.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80"
+                            class="card-img-top" alt="Bluetooth Speaker">
+                        <div class="card-body">
+                            <h5 class="card-title">Bluetooth Speaker</h5>
+                            <p class="card-text">$34.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=500&q=80"
+                            class="card-img-top" alt="Mechanical Keyboard">
+                        <div class="card-body">
+                            <h5 class="card-title">Mechanical Keyboard</h5>
+                            <p class="card-text">$74.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&q=80"
+                            class="card-img-top" alt="Wireless Mouse">
+                        <div class="card-body">
+                            <h5 class="card-title">Wireless Mouse</h5>
+                            <p class="card-text">$24.99</p>
+                            <a href="#cart" class="btn btn-outline-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= REVIEWS ================= -->
+        <section id="reviews" class="my-5">
+            <h2 class="text-center mb-4"><i class="fas fa-star"></i> Customer Reviews</h2>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Sara Ahmed</strong> <span class="badge bg-warning text-dark">★★★★★</span>
+                    <p class="mb-0">Fast delivery and the headphones sound amazing!</p>
+                </li>
+                <li class="list-group-item">
+                    <strong>Bilal Khan</strong> <span class="badge bg-warning text-dark">★★★★☆</span>
+                    <p class="mb-0">Great prices compared to other stores.</p>
+                </li>
+                <li class="list-group-item">
+                    <strong>Ayesha Raza</strong> <span class="badge bg-warning text-dark">★★★★★</span>
+                    <p class="mb-0">Helped me pick the right laptop for my budget!</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ================= CART (Display + Edit) ================= -->
+        <section id="cart" class="my-5">
+            <h2 class="text-center mb-4"><i class="fas fa-cart-shopping"></i> Your Cart</h2>
+
+            <div class="list-group mb-3">
+
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>Wireless Headphones</strong><br>
+                        <span class="text-muted">$59.99 each</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="btn-group me-2">
+                            <button class="btn btn-outline-secondary btn-sm">-</button>
+                            <button class="btn btn-outline-secondary btn-sm" disabled>1</button>
+                            <button class="btn btn-outline-secondary btn-sm">+</button>
+                        </div>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>Smart Watch</strong><br>
+                        <span class="text-muted">$89.99 each</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="btn-group me-2">
+                            <button class="btn btn-outline-secondary btn-sm">-</button>
+                            <button class="btn btn-outline-secondary btn-sm" disabled>1</button>
+                            <button class="btn btn-outline-secondary btn-sm">+</button>
+                        </div>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>Bluetooth Speaker</strong><br>
+                        <span class="text-muted">$34.99 each</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="btn-group me-2">
+                            <button class="btn btn-outline-secondary btn-sm">-</button>
+                            <button class="btn btn-outline-secondary btn-sm" disabled>1</button>
+                            <button class="btn btn-outline-secondary btn-sm">+</button>
+                        </div>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center bg-light p-3 rounded">
+                <h5 class="mb-0">Total: $184.97</h5>
+                <a href="#checkout" class="btn btn-success">Proceed to Checkout</a>
+            </div>
+        </section>
+
+        <!-- ================= CHECKOUT ================= -->
+        <section id="checkout" class="my-5">
+            <h2 class="text-center mb-4"><i class="fas fa-truck"></i> Checkout</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="card p-4">
+
+                        <h5>Order Summary</h5>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between"><span>Wireless Headphones x
+                                    1</span><span>$59.99</span></div>
+                            <div class="d-flex justify-content-between"><span>Smart Watch x 1</span><span>$89.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between"><span>Bluetooth Speaker x
+                                    1</span><span>$34.99</span></div>
+                        </div>
+                        <p><strong>Total: $184.97</strong></p>
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Address</label>
+                            <input type="text" class="form-control" placeholder="Enter your address">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Payment Method</label>
+                            <select class="form-select">
+                                <option>Credit / Debit Card</option>
+                                <option>Cash on Delivery</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-success w-100">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SIGNUP ================= -->
+        <section id="signup" class="my-5">
+            <h2 class="text-center mb-4">Sign Up</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-5">
+                    <div class="card p-4">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter full name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="text" class="form-control" placeholder="Enter email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter password">
+                        </div>
+                        <button class="btn btn-primary w-100">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LOGIN ================= -->
+        <section id="login" class="my-5">
+            <h2 class="text-center mb-4">Login</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-5">
+                    <div class="card p-4">
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="Enter username">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter password">
+                        </div>
+                        <button class="btn btn-primary w-100">Login</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">&copy; 2026 Afnan Store</p>
+    </footer>
+
+    <!-- Bootstrap's own JS bundle - this is what makes the navbar hamburger
+         button open/close. It's Bootstrap's built-in script, not anything
+         custom written for this page. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Headphones",
+            "price": 2500
+        },
+        {
+            "id": 2,
+            "name": "Smart Watch",
+            "price": 5000
+        },
+        {
+            "id": 3,
+            "name": "Laptop",
+            "price": 120000
+        }
+    ],
+    "cart": [],
+    "orders": [],
+    "reviews": []
+}
